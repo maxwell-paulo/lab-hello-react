@@ -1,5 +1,17 @@
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Infos from "./components/Infos";
+
+import "./style.css";
+
 function App() {
-  return <h1>ola</h1>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <Infos />
+    </>
+  );
 }
 
 export default App;
